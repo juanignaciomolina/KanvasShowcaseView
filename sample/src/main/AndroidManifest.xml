@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="uk.co.deanwild.materialshowcaseviewsample" >
+    package="uk.com.wolox.materialshowcaseviewsample" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="uk.com.wolox.materialshowcaseviewsample.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,15 +17,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SimpleSingleExample"
+            android:name="uk.com.wolox.materialshowcaseviewsample.SimpleSingleExample"
             android:label="@string/title_activity_simple_single_example" >
         </activity>
         <activity
-            android:name=".CustomExample"
+            android:name="uk.com.wolox.materialshowcaseviewsample.CustomExample"
             android:label="@string/title_activity_custom_example" >
         </activity>
         <activity
-            android:name=".SequenceExample"
+            android:name="uk.com.wolox.materialshowcaseviewsample.SequenceExample"
             android:label="@string/title_activity_sequence_example" >
         </activity>
     </application>
